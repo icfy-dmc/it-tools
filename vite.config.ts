@@ -16,7 +16,7 @@ import markdown from 'vite-plugin-vue-markdown';
 import svgLoader from 'vite-svg-loader';
 import { configDefaults } from 'vitest/config';
 
-const baseUrl = process.env.BASE_URL ?? '/';
+const baseUrl = process.env.BASE_URL ?? '/it-tools/';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -67,22 +67,22 @@ export default defineConfig({
         background_color: '#f1f5f9',
         icons: [
           {
-            src: '/favicon-16x16.png',
+            src: '/it-tools/favicon-16x16.png',
             type: 'image/png',
             sizes: '16x16',
           },
           {
-            src: '/favicon-32x32.png',
+            src: '/it-tools/favicon-32x32.png',
             type: 'image/png',
             sizes: '32x32',
           },
           {
-            src: '/android-chrome-192x192.png',
+            src: '/it-tools/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/android-chrome-512x512.png',
+            src: '/it-tools/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable',
