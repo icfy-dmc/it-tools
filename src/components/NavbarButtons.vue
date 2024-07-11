@@ -7,7 +7,7 @@ const { isDarkTheme } = toRefs(styleStore);
 </script>
 
 <template>
-  <c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
+  <!-- <c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
     <c-button
       circle
       variant="text"
@@ -18,7 +18,7 @@ const { isDarkTheme } = toRefs(styleStore);
     >
       <n-icon size="25" :component="BrandGithub" />
     </c-button>
-  </c-tooltip>
+  </c-tooltip> -->
 
   <!-- <c-tooltip :tooltip="$t('home.nav.twitter')" position="bottom">
     <c-button
