@@ -453,3 +453,83 @@ tools:
   text-to-binary:
     title: Text zu ASCII-Binär
     description: Konvertiere Text in seine ASCII-Binärrepräsentation und umgekehrt.
+bcrypt:
+  compare: String-Vergleich mit Hash
+  compareHash: 'Hashwert:'
+  comparePlaceholder: Die Saiten zum Vergleichen...
+  compareResult: Passt es?
+  compareString: 'Zeichenfolge:'
+  copyHash: Hash kopieren
+  hash: Hash
+  hashedStringCopied: Hash-String in die Zwischenablage kopiert
+  input: 'Text:'
+  match: Ja
+  mismatch: NEIN
+  placeholder: Die Zeichenfolge für bscript
+  salt: 'Länge des Verschlüsselungssalzes:'
+  saltRounds: Hash-Hash-Zeiten
+encryption:
+  cypherAlgo: 'Verschlüsselungsalgorithmus:'
+  cypherInput: 'Klartext:'
+  cypherOutput: Geheimtext
+  cypherSecret: 'Geheimer Schlüssel:'
+  decryptError: Ihr Text konnte nicht entschlüsselt werden
+  decryptInput: 'Geheimtext:'
+  decryptTitle: Entschlüsseln
+  title: Verschlüsselung
+hash-text:
+  encoding:
+    label: Zusammenfassungsalgorithmus
+  input:
+    label: 'Zu hashender Text:'
+    placeholder: Text zum Hash...
+passwordStrengthAnalyser:
+  centuries: Jahrhunderte
+  century: Jahrhundert
+  charsetLength: 'Zeichensatzgröße:'
+  crackDuration: 'Entropie:'
+  crackTimeEstimation: Wie lange dauert es, dieses Passwort mit roher Gewalt zu knacken?
+  day: Himmel
+  days: Himmel
+  decade: 10 Jahre
+  decades: 10 Jahre
+  hour: Stunde
+  hours: Stunde
+  instantly: sofort
+  lessThanOneSecond: weniger als eine Sekunde
+  millenium: Millennium
+  millennia: Millennium
+  minute: Minute
+  minutes: Minute
+  month: Mond
+  months: Mond
+  note: 'Beachten:'
+  noteDescription: >-
+    Die berechnete Stärke basiert auf der Zeit, die zum Knacken eines Passworts
+    mit Brute-Force-Methoden benötigt wird, und berücksichtigt nicht die
+    Möglichkeit von Wörterbuchangriffen.
+  passwordPlaceholder: Geben Sie ein Passwort ein...
+  pdwlength: 'Passwortlänge:'
+  score: 'Fraktion:'
+  second: Zweite
+  seconds: Zweite
+  week: Woche
+  weeks: Woche
+  year: Jahr
+  years: Jahr
+ulid-generator:
+  button:
+    copy: Kopieren
+    refresh: Aktualisierung
+  copied: ULIDs in die Zwischenablage kopiert
+  format: 'Format:'
+  quantity: Menge
+uuid-generator:
+  button:
+    copy: Kopieren
+    refresh: Aktualisierung
+  copied: in die Zwischenablage kopieren
+  name: Name
+  namespace: Namensräume
+  quantity: Menge
+  version: UUID-Version

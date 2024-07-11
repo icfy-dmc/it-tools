@@ -11,16 +11,16 @@ home:
   subtitle: Handy tools for developers
   toggleMenu: Toggle menu
   home: Home
-  uiLib: 'UI Lib'
-  support: 'Support IT-Tools development'
-  buyMeACoffee: 'Buy me a coffee'
+  uiLib: UI Lib
+  support: Support IT-Tools development
+  buyMeACoffee: Buy me a coffee
   follow:
-    title: 'You like it-tools?'
-    p1: 'Give us a star on'
-    githubRepository: 'IT-Tools GitHub repository'
-    p2: 'or follow us on'
-    twitterAccount: 'IT-Tools Twitter account'
-    thankYou: 'Thank you!'
+    title: You like it-tools?
+    p1: Give us a star on
+    githubRepository: IT-Tools GitHub repository
+    p2: or follow us on
+    twitterAccount: IT-Tools Twitter account
+    thankYou: Thank you!
   nav:
     github: GitHub repository
     githubRepository: IT-Tools GitHub repository
@@ -87,8 +87,9 @@ tools:
     data: Data
   password-strength-analyser:
     title: Password strength analyser
-    description: Discover the strength of your password with this client-side-only password strength analyser and crack time estimation tool.
-
+    description: >-
+      Discover the strength of your password with this client-side-only password
+      strength analyser and crack time estimation tool.
   chronometer:
     title: Chronometer
     description: >-
@@ -117,7 +118,6 @@ tools:
   svg-placeholder-generator:
     title: SVG placeholder generator
     description: Generate svg images to use as a placeholder in your applications.
-
   json-to-csv:
     title: JSON to CSV
     description: Convert JSON to CSV with automatic header detection.
@@ -144,12 +144,12 @@ tools:
       function based on the Blowfish cipher.
   crontab-generator:
     title: Crontab generator
-    description: Validate and generate crontab and get the human-readable description of the cron schedule.
-
+    description: >-
+      Validate and generate crontab and get the human-readable description of
+      the cron schedule.
   http-status-codes:
     title: HTTP status codes
     description: The list of all HTTP status codes, their name, and their meaning.
-
   sql-prettify:
     title: SQL prettify and format
     description: >-
@@ -162,15 +162,17 @@ tools:
       benchmark builder.
   git-memo:
     title: Git cheatsheet
-    description: Git is a decentralized version management software. With this cheatsheet, you will have quick access to the most common git commands.
-
+    description: >-
+      Git is a decentralized version management software. With this cheatsheet,
+      you will have quick access to the most common git commands.
   slugify-string:
     title: Slugify string
     description: Make a string url, filename and id safe.
   encryption:
     title: Encrypt / decrypt text
-    description: Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.
-
+    description: >-
+      Encrypt clear text and decrypt ciphertext using crypto algorithms like
+      AES, TripleDES, Rabbit or RC4.
   random-port-generator:
     title: Random port generator
     description: >-
@@ -179,11 +181,12 @@ tools:
   yaml-prettify:
     title: YAML prettify and format
     description: Prettify your YAML string into a friendly, human-readable format.
-
   eta-calculator:
     title: ETA calculator
-    description: An ETA (Estimated Time of Arrival) calculator to determine the approximate end time of a task, for example, the end time and duration of a file download.
-
+    description: >-
+      An ETA (Estimated Time of Arrival) calculator to determine the approximate
+      end time of a task, for example, the end time and duration of a file
+      download.
   roman-numeral-converter:
     title: Roman numeral converter
     description: Convert Roman numerals to numbers and convert numbers to Roman numerals.
@@ -194,12 +197,12 @@ tools:
       key and your favorite hashing function.
   bip39-generator:
     title: BIP39 passphrase generator
-    description: Generate a BIP39 passphrase from an existing or random mnemonic, or get the mnemonic from the passphrase.
-
+    description: >-
+      Generate a BIP39 passphrase from an existing or random mnemonic, or get
+      the mnemonic from the passphrase.
   base64-file-converter:
     title: Base64 file converter
     description: Convert a string, file, or image into its base64 representation.
-
   list-converter:
     title: List converter
     description: >-
@@ -209,7 +212,6 @@ tools:
   base64-string-converter:
     title: Base64 string encoder/decoder
     description: Simply encode and decode strings into their base64 representation.
-
   toml-to-yaml:
     title: TOML to YAML
     description: Parse and convert TOML to YAML.
@@ -221,15 +223,16 @@ tools:
   json-to-yaml-converter:
     title: JSON to YAML converter
     description: Simply convert JSON to YAML with this online live converter.
-
   url-parser:
     title: URL parser
-    description: Parse a URL into its separate constituent parts (protocol, origin, params, port, username-password, ...)
-
+    description: >-
+      Parse a URL into its separate constituent parts (protocol, origin, params,
+      port, username-password, ...)
   iban-validator-and-parser:
     title: IBAN validator and parser
-    description: Validate and parse IBAN numbers. Check if an IBAN is valid and get the country, BBAN, if it is a QR-IBAN and the IBAN friendly format.
-
+    description: >-
+      Validate and parse IBAN numbers. Check if an IBAN is valid and get the
+      country, BBAN, if it is a QR-IBAN and the IBAN friendly format.
   user-agent-parser:
     title: User-agent parser
     description: >-
@@ -244,26 +247,23 @@ tools:
   case-converter:
     title: Case converter
     description: Transform the case of a string and choose between different formats
-
   html-entities:
     title: Escape HTML entities
-    description: Escape or unescape HTML entities (replace characters like <,>, &, " and \' with their HTML version)
-
+    description: >-
+      Escape or unescape HTML entities (replace characters like <,>, &, " and \'
+      with their HTML version)
   json-prettify:
     title: JSON prettify and format
     description: Prettify your JSON string into a friendly, human-readable format.
-
   docker-run-to-docker-compose-converter:
     title: Docker run to Docker compose converter
     description: Transforms "docker run" commands into docker-compose files!
-
   mac-address-lookup:
     title: MAC address lookup
     description: Find the vendor and manufacturer of a device by its MAC address.
   mime-types:
     title: MIME types
     description: Convert MIME types to file extensions and vice-versa.
-
   toml-to-json:
     title: TOML to JSON
     description: Parse and convert TOML to JSON.
@@ -274,20 +274,20 @@ tools:
       form of a document or a typeface without relying on meaningful content
   qrcode-generator:
     title: QR Code generator
-    description: Generate and download a QR code for a URL (or just plain text), and customize the background and foreground colors.
-
+    description: >-
+      Generate and download a QR code for a URL (or just plain text), and
+      customize the background and foreground colors.
   wifi-qrcode-generator:
     title: WiFi QR Code generator
     description: Generate and download QR codes for quick connections to WiFi networks.
-
   xml-formatter:
     title: XML formatter
     description: Prettify your XML string into a friendly, human-readable format.
-
   temperature-converter:
     title: Temperature converter
-    description: Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.
-
+    description: >-
+      Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine,
+      Delisle, Newton, Réaumur, and Rømer.
   chmod-calculator:
     title: Chmod calculator
     description: >-
@@ -296,11 +296,11 @@ tools:
   rsa-key-pair-generator:
     title: RSA key pair generator
     description: Generate a new random RSA private and public pem certificate key pair.
-
   html-wysiwyg-editor:
     title: HTML WYSIWYG editor
-    description: Online, feature-rich WYSIWYG HTML editor which generates the source code of the content immediately.
-
+    description: >-
+      Online, feature-rich WYSIWYG HTML editor which generates the source code
+      of the content immediately.
   yaml-to-toml:
     title: YAML to TOML
     description: Parse and convert YAML to TOML.
@@ -325,16 +325,17 @@ tools:
       number, like the country code, type, etc.
   ipv4-subnet-calculator:
     title: IPv4 subnet calculator
-    description: Parse your IPv4 CIDR blocks and get all the info you need about your subnet.
-
+    description: >-
+      Parse your IPv4 CIDR blocks and get all the info you need about your
+      subnet.
   og-meta-generator:
     title: Open graph meta generator
     description: Generate open-graph and socials HTML meta tags for your website.
-
   ipv6-ula-generator:
     title: IPv6 ULA generator
-    description: Generate your own local, non-routable IP addresses for your network according to RFC4193.
-
+    description: >-
+      Generate your own local, non-routable IP addresses for your network
+      according to RFC4193.
   hash-text:
     title: Hash text
     description: >-
@@ -357,7 +358,6 @@ tools:
   json-minify:
     title: JSON minify
     description: Minify and compress your JSON by removing unnecessary whitespace.
-
   ulid-generator:
     title: ULID generator
     description: >-
@@ -370,12 +370,12 @@ tools:
       shareable and identifiable without revealing its content.
   base-converter:
     title: Integer base converter
-    description: Convert a number between different bases (decimal, hexadecimal, binary, octal, base64, ...)
-
+    description: >-
+      Convert a number between different bases (decimal, hexadecimal, binary,
+      octal, base64, ...)
   yaml-to-json-converter:
     title: YAML to JSON converter
     description: Simply convert YAML to JSON with this online live converter.
-
   uuid-generator:
     title: UUIDs generator
     description: >-
@@ -384,27 +384,28 @@ tools:
       16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).
   ipv4-address-converter:
     title: IPv4 address converter
-    description: Convert an IP address into decimal, binary, hexadecimal, or even an IPv6 representation of it.
-
+    description: >-
+      Convert an IP address into decimal, binary, hexadecimal, or even an IPv6
+      representation of it.
   text-statistics:
     title: Text statistics
-    description: Get information about a text, the number of characters, the number of words, its size in bytes, ...
-
+    description: >-
+      Get information about a text, the number of characters, the number of
+      words, its size in bytes, ...
   text-to-nato-alphabet:
     title: Text to NATO alphabet
     description: Transform text into the NATO phonetic alphabet for oral transmission.
-
   basic-auth-generator:
     title: Basic auth generator
     description: Generate a base64 basic auth header from a username and password.
-
   text-to-unicode:
     title: Text to Unicode
     description: Parse and convert text to unicode and vice-versa
   ipv4-range-expander:
     title: IPv4 range expander
-    description: Given a start and an end IPv4 address, this tool calculates a valid IPv4 subnet along with its CIDR notation.
-
+    description: >-
+      Given a start and an end IPv4 address, this tool calculates a valid IPv4
+      subnet along with its CIDR notation.
   text-diff:
     title: Text diff
     description: Compare two texts and see the differences between them.
@@ -415,8 +416,93 @@ tools:
       authentication.
   url-encoder:
     title: Encode/decode URL-formatted strings
-    description: Encode text to URL-encoded format (also known as "percent-encoded"), or decode from it.
-
+    description: >-
+      Encode text to URL-encoded format (also known as "percent-encoded"), or
+      decode from it.
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+bcrypt:
+  compare: String comparison with hash
+  compareHash: 'Hash value:'
+  comparePlaceholder: The strings to compare...
+  compareResult: Does it match?
+  compareString: 'String:'
+  copyHash: copy hash
+  hash: Hash
+  hashedStringCopied: Hash string copied to clipboard
+  input: 'text:'
+  match: 'yes'
+  mismatch: 'no'
+  placeholder: The string to bcript
+  salt: 'Encryption salt length:'
+  saltRounds: Hash hash times
+encryption:
+  cypherAlgo: 'Encryption Algorithm:'
+  cypherInput: 'Plain text:'
+  cypherOutput: ciphertext
+  cypherSecret: 'Secret key:'
+  decryptError: Unable to decrypt your text
+  decryptInput: 'Cipher text:'
+  decryptTitle: Decrypt
+  title: encryption
+hash-text:
+  encoding:
+    label: summary algorithm
+  input:
+    label: 'Text to hash:'
+    placeholder: Text to hash...
+passwordStrengthAnalyser:
+  centuries: centuries
+  century: century
+  charsetLength: 'Character set size:'
+  crackDuration: 'entropy:'
+  crackTimeEstimation: How long to use brute force to crack this password
+  day: sky
+  days: sky
+  decade: ten years
+  decades: ten years
+  hour: Hour
+  hours: Hour
+  instantly: immediately
+  lessThanOneSecond: less than a second
+  millenium: millennium
+  millennia: millennium
+  minute: minute
+  minutes: minute
+  month: moon
+  months: moon
+  note: 'Notice:'
+  noteDescription: >-
+    The calculated strength is based on the time required to crack a password
+    using brute force methods, it does not take into account the possibility of
+    dictionary attacks.
+  passwordPlaceholder: Enter a password...
+  pdwlength: 'Password length:'
+  score: 'Fraction:'
+  second: Second
+  seconds: Second
+  week: week
+  weeks: week
+  year: Year
+  years: Year
+ulid-generator:
+  button:
+    copy: copy
+    refresh: refresh
+  copied: ULIDs copied to clipboard
+  format: 'format:'
+  quantity: quantity
+uuid-generator:
+  button:
+    copy: copy
+    refresh: refresh
+  copied: copy to clipboard
+  name: name
+  namespace: Namespaces
+  quantity: quantity
+  version: UUID version
+http-status-code:
+  category: informational response
+  continue: Continue
+  description: Waiting for the client to emit the body of the request.

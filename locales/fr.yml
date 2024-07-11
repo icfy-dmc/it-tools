@@ -474,6 +474,7 @@ bcrypt:
   placeholder: La chaîne à écrire
   salt: "Longueur du sel de chiffrement\_:"
   saltRounds: Temps de hachage
+  compare: Comparaison de chaînes avec hachage
 favoriteButton:
   add: Ajouter aux Favoris
   remove: Annuler les favoris
@@ -499,3 +500,48 @@ uuid-generator:
   namespace: Espaces de noms
   quantity: quantité
   version: Version UUID
+encryption:
+  cypherAlgo: 'Algorithme de cryptage:'
+  cypherInput: "Texte brut\_:"
+  cypherOutput: texte chiffré
+  cypherSecret: 'Clef secrète:'
+  decryptError: Impossible de décrypter votre texte
+  decryptInput: "Texte chiffré\_:"
+  decryptTitle: Décrypter
+  title: chiffrement
+passwordStrengthAnalyser:
+  centuries: des siècles
+  century: siècle
+  charsetLength: "Taille du jeu de caractères\_:"
+  crackDuration: "entropie\_:"
+  crackTimeEstimation: >-
+    Combien de temps faut-il utiliser la force brute pour déchiffrer ce mot de
+    passe
+  day: ciel
+  days: ciel
+  decade: dix ans
+  decades: dix ans
+  hour: Heure
+  hours: Heure
+  instantly: immédiatement
+  lessThanOneSecond: moins d'une seconde
+  millenium: millénaire
+  millennia: millénaire
+  minute: minute
+  minutes: minute
+  month: lune
+  months: lune
+  note: 'Avis:'
+  noteDescription: >-
+    La force calculée est basée sur le temps nécessaire pour déchiffrer un mot
+    de passe à l'aide de méthodes de force brute ; elle ne prend pas en compte
+    la possibilité d'attaques par dictionnaire.
+  passwordPlaceholder: Entrer un mot de passe...
+  pdwlength: 'Longueur du mot de passe:'
+  score: 'Fraction:'
+  second: Deuxième
+  seconds: Deuxième
+  week: semaine
+  weeks: semaine
+  year: Année
+  years: Année

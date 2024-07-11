@@ -2,11 +2,12 @@
 import { codesByCategories } from './http-status-codes.constants';
 import { useFuzzySearch } from '@/composable/fuzzySearch';
 
+const { t } = useI18n();
 const search = ref('');
 
 const { searchResult } = useFuzzySearch({
   search,
-  data: codesByCategories.flatMap(({ codes, category }) => codes.map(code => ({ ...code, category }))),
+  data: codesByCategories(t).flatMap(({ codes, category }) => codes.map(code => ({ ...code, category }))),
   options: {
     keys: [{ name: 'code', weight: 3 }, { name: 'name', weight: 2 }, 'description', 'category'],
   },
@@ -14,7 +15,7 @@ const { searchResult } = useFuzzySearch({
 
 const codesByCategoryFiltered = computed(() => {
   if (!search.value) {
-    return codesByCategories;
+    return codesByCategories(t);
   }
 
   return [{ category: 'Search results', codes: searchResult.value }];

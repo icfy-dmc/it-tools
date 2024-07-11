@@ -1,4 +1,4 @@
-export const codesByCategories: {
+export const codesByCategories: (t: any) => {
   category: string
   codes: {
     code: number
@@ -6,14 +6,14 @@ export const codesByCategories: {
     description: string
     type: 'HTTP' | 'WebDav'
   }[]
-}[] = [
+}[] = t => [
   {
-    category: '1xx informational response',
+    category: `1xx ${t('http-status-code.category')}`,
     codes: [
       {
         code: 100,
-        name: 'Continue',
-        description: 'Waiting for the client to emit the body of the request.',
+        name: t('http-status-code.continue'),
+        description: t('http-status-code.description'),
         type: 'HTTP',
       },
       {
@@ -61,7 +61,7 @@ export const codesByCategories: {
         code: 203,
         name: 'Non-Authoritative Information',
         description:
-          'The request is successful but the content of the original request has been modified by a transforming proxy.',
+            'The request is successful but the content of the original request has been modified by a transforming proxy.',
         type: 'HTTP',
       },
       {
@@ -86,21 +86,21 @@ export const codesByCategories: {
         code: 207,
         name: 'Multi-Status',
         description:
-          'The message body that follows is an XML message and can contain a number of separate response codes.',
+            'The message body that follows is an XML message and can contain a number of separate response codes.',
         type: 'WebDav',
       },
       {
         code: 208,
         name: 'Already Reported',
         description:
-          'The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response.',
+            'The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response.',
         type: 'WebDav',
       },
       {
         code: 226,
         name: 'IM Used',
         description:
-          'The server has fulfilled a request for the resource, and the response is a representation of the result.',
+            'The server has fulfilled a request for the resource, and the response is a representation of the result.',
         type: 'HTTP',
       },
     ],
@@ -136,14 +136,14 @@ export const codesByCategories: {
         code: 304,
         name: 'Not Modified',
         description:
-          'Indicates that the resource has not been modified since the version specified by the request headers.',
+            'Indicates that the resource has not been modified since the version specified by the request headers.',
         type: 'HTTP',
       },
       {
         code: 305,
         name: 'Use Proxy',
         description:
-          'The requested resource is available only through a proxy, the address for which is provided in the response.',
+            'The requested resource is available only through a proxy, the address for which is provided in the response.',
         type: 'HTTP',
       },
       {
@@ -156,7 +156,7 @@ export const codesByCategories: {
         code: 307,
         name: 'Temporary Redirect',
         description:
-          'In this case, the request should be repeated with another URI; however, future requests should still use the original URI.',
+            'In this case, the request should be repeated with another URI; however, future requests should still use the original URI.',
         type: 'HTTP',
       },
       {
@@ -180,21 +180,21 @@ export const codesByCategories: {
         code: 401,
         name: 'Unauthorized',
         description:
-          'Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided.',
+            'Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided.',
         type: 'HTTP',
       },
       {
         code: 402,
         name: 'Payment Required',
         description:
-          'Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme.',
+            'Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme.',
         type: 'HTTP',
       },
       {
         code: 403,
         name: 'Forbidden',
         description:
-          'The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource.',
+            'The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource.',
         type: 'HTTP',
       },
       {
@@ -213,7 +213,7 @@ export const codesByCategories: {
         code: 406,
         name: 'Not Acceptable',
         description:
-          'The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.',
+            'The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.',
         type: 'HTTP',
       },
       {
@@ -232,7 +232,7 @@ export const codesByCategories: {
         code: 409,
         name: 'Conflict',
         description:
-          'Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.',
+            'Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.',
         type: 'HTTP',
       },
       {
@@ -245,7 +245,7 @@ export const codesByCategories: {
         code: 411,
         name: 'Length Required',
         description:
-          'The request did not specify the length of its content, which is required by the requested resource.',
+            'The request did not specify the length of its content, which is required by the requested resource.',
         type: 'HTTP',
       },
       {
@@ -342,14 +342,14 @@ export const codesByCategories: {
         code: 431,
         name: 'Request Header Fields Too Large',
         description:
-          'The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.',
+            'The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.',
         type: 'HTTP',
       },
       {
         code: 451,
         name: 'Unavailable For Legal Reasons',
         description:
-          'A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.',
+            'A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.',
         type: 'HTTP',
       },
     ],
@@ -361,21 +361,21 @@ export const codesByCategories: {
         code: 500,
         name: 'Internal Server Error',
         description:
-          'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.',
+            'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.',
         type: 'HTTP',
       },
       {
         code: 501,
         name: 'Not Implemented',
         description:
-          'The server either does not recognize the request method, or it lacks the ability to fulfill the request.',
+            'The server either does not recognize the request method, or it lacks the ability to fulfill the request.',
         type: 'HTTP',
       },
       {
         code: 502,
         name: 'Bad Gateway',
         description:
-          'The server was acting as a gateway or proxy and received an invalid response from the upstream server.',
+            'The server was acting as a gateway or proxy and received an invalid response from the upstream server.',
         type: 'HTTP',
       },
       {
@@ -388,7 +388,7 @@ export const codesByCategories: {
         code: 504,
         name: 'Gateway Timeout',
         description:
-          'The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.',
+            'The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.',
         type: 'HTTP',
       },
       {

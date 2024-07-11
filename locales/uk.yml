@@ -449,6 +449,7 @@ bcrypt:
   placeholder: Рядок для bcript
   salt: 'Довжина солі шифрування:'
   saltRounds: Хеш хеш час
+  compare: Порівняння рядка з хешем
 hash-text:
   encoding:
     label: алгоритм зведення
@@ -471,3 +472,45 @@ uuid-generator:
   namespace: Простори імен
   quantity: кількість
   version: версія UUID
+encryption:
+  cypherAlgo: 'Алгоритм шифрування:'
+  cypherInput: 'Простий текст:'
+  cypherOutput: зашифрований текст
+  cypherSecret: 'Секретний ключ:'
+  decryptError: Не вдалося розшифрувати ваш текст
+  decryptInput: 'Зашифрований текст:'
+  decryptTitle: Розшифрувати
+  title: шифрування
+passwordStrengthAnalyser:
+  centuries: століттями
+  century: століття
+  charsetLength: 'Розмір набору символів:'
+  crackDuration: 'ентропія:'
+  crackTimeEstimation: Як довго використовувати грубу силу для злому цього пароля
+  day: небо
+  days: небо
+  decade: десять років
+  decades: десять років
+  hour: годину
+  hours: годину
+  instantly: негайно
+  lessThanOneSecond: менше секунди
+  millenium: тисячоліття
+  millennia: тисячоліття
+  minute: хвилина
+  minutes: хвилина
+  month: місяць
+  months: місяць
+  note: 'Примітка:'
+  noteDescription: >-
+    Розрахована міцність базується на часу, необхідному для злому пароля методом
+    грубої сили, не враховує можливість атак за словником.
+  passwordPlaceholder: Введіть пароль...
+  pdwlength: 'Довжина пароля:'
+  score: 'дріб:'
+  second: друге
+  seconds: друге
+  week: тиждень
+  weeks: тиждень
+  year: рік
+  years: рік

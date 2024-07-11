@@ -445,6 +445,7 @@ bcrypt:
   placeholder: Chuỗi tới bscript
   salt: 'Độ dài muối mã hóa:'
   saltRounds: Thời gian băm băm
+  compare: So sánh chuỗi bằng hàm băm
 hash-text:
   encoding:
     label: thuật toán tóm tắt
@@ -467,3 +468,45 @@ uuid-generator:
   namespace: Không gian tên
   quantity: Số lượng
   version: phiên bản UUID
+encryption:
+  cypherAlgo: 'Thuật toán mã hóa:'
+  cypherInput: 'Văn bản thô:'
+  cypherOutput: bản mã
+  cypherSecret: 'Chìa khoá bí mật:'
+  decryptError: Không thể giải mã văn bản của bạn
+  decryptInput: 'Văn bản mật mã:'
+  decryptTitle: Giải mã
+  title: mã hóa
+passwordStrengthAnalyser:
+  centuries: thế kỉ
+  century: thế kỷ
+  charsetLength: 'Kích thước bộ ký tự:'
+  crackDuration: 'Sự hỗn loạn:'
+  crackTimeEstimation: Sử dụng vũ lực trong bao lâu để bẻ khóa mật khẩu này
+  day: bầu trời
+  days: bầu trời
+  decade: mười năm
+  decades: mười năm
+  hour: Giờ
+  hours: Giờ
+  instantly: ngay lập tức
+  lessThanOneSecond: chưa đầy một giây
+  millenium: thiên niên kỷ
+  millennia: thiên niên kỷ
+  minute: phút
+  minutes: phút
+  month: mặt trăng
+  months: mặt trăng
+  note: 'Để ý:'
+  noteDescription: >-
+    Độ mạnh được tính toán dựa trên thời gian cần thiết để bẻ khóa mật khẩu bằng
+    các phương pháp vũ phu, nó không tính đến khả năng tấn công từ điển.
+  passwordPlaceholder: Gõ mật khẩu...
+  pdwlength: 'Độ dài mật khẩu:'
+  score: 'Phân số:'
+  second: Thứ hai
+  seconds: Thứ hai
+  week: tuần
+  weeks: tuần
+  year: Năm
+  years: Năm

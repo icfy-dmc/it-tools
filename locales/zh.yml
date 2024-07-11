@@ -398,3 +398,7 @@ passwordStrengthAnalyser:
   hour: 小时
   minute: 分钟
   second: 秒
+http-status-code:
+  category: 应答信息
+  continue: 继续
+  description: 正在等待客户端发出请求的正文。
