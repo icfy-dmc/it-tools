@@ -26,8 +26,7 @@ const endAt = computed(() =>
 <template>
   <div>
     <div text-justify op-70>
-      With a concrete example, if you wash 5 plates in 3 minutes and you have 500 plates to wash, it will take you 5
-      hours to wash them all.
+      举一个具体的例子，如果你在3分钟内洗了5个盘子，而你有500个盘子要洗，那么你需要5个小时才能洗完。
     </div>
     <n-divider />
     <div flex gap-2>
