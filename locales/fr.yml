@@ -7,47 +7,39 @@
   backHome: Retour à l'accueil
 home:
   categories:
-    newestTools: Les nouveaux outils
-    favoriteTools: Vos outils favoris
-    allTools: Tous les outils
-  subtitle: Outils pour les développeurs
-  toggleMenu: Menu
+    newestTools: 'Les nouveaux outils'
+    favoriteTools: 'Vos outils favoris'
+    allTools: 'Tous les outils'
+    favoritesDndToolTip: 'Faites glisser et déposez pour réordonner vos favoris'
+  subtitle: 'Outils pour les développeurs'
+  toggleMenu: 'Menu'
   home: Accueil
   uiLib: UI Lib
   buyMeACoffee: Soutenez IT-Tools
   follow:
-    title: Vous aimez it-tools ?
-    p1: Soutenez-nous avec une star sur
-    githubRepository: le dépôt GitHub d'IT-Tools
-    p2: ou suivez-nous sur
-    twitterAccount: le compte Twitter d'IT-Tools
-    thankYou: Merci !
+    title: 'Vous aimez it-tools ?'
+    p1: 'Soutenez-nous avec une star sur'
+    githubRepository: "le dépôt GitHub d'IT-Tools"
+    p2: 'ou suivez-nous sur'
+    twitterXAccount: "le compte X d'IT-Tools"
+    thankYou: 'Merci !'
   nav:
-    github: Dépôt GitHub
-    githubRepository: Dépôt GitHub d'IT-Tools
-    twitter: Compte Twitter
-    twitterAccount: Compte Twitter d'IT-Tools
-    about: À propos d'IT-Tools
-    aboutLabel: À propos
-    darkMode: Mode sombre
-    lightMode: Mode clair
-    mode: Basculer le mode sombre/clair
-  support: Accompagner le développement d'outils informatiques
+    github: 'Dépôt GitHub'
+    githubRepository: "Dépôt GitHub d'IT-Tools"
+    twitterX: 'Compte X'
+    twitterXAccount: "Compte X d'IT-Tools"
+    about: "À propos d'IT-Tools"
+    aboutLabel: 'À propos'
+    darkMode: 'Mode sombre'
+    lightMode: 'Mode clair'
+    mode: 'Basculer le mode sombre/clair'
 about:
   content: >
     # À propos de IT-Tools
 
-    Ce merveilleux site, fait avec ❤ par [Corentin
-    Thomasset](https://github.com/CorentinTh), regroupe des outils utiles pour
-    les développeurs et les personnes travaillant dans l'informatique. Si vous
-    le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre
-    dans vos favoris !
+    Ce merveilleux site, fait avec ❤ par [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), regroupe des outils utiles pour les développeurs et les personnes travaillant dans l'informatique. Si vous le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre dans vos favoris !
 
-    IT Tools est open-source (sous licence MIT) et gratuit, et le restera
-    toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le
-    nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à
-    ajouter plus d'outils, n'hésitez pas à me
-    [soutenir](https://www.buymeacoffee.com/cthmsst).
+    IT Tools est open-source (sous licence GPL-3.0) et gratuit, et le restera toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à ajouter plus d'outils, n'hésitez pas à me [soutenir](https://www.buymeacoffee.com/cthmsst).
 
     ## Technologies
 
